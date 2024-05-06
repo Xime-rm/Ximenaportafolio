@@ -1,0 +1,21 @@
+li,a {
+  font-size: 2rem;
+  color: #bdeab3;
+  list-style: none;
+  text-decoration: none;  
+}
+
+li {
+  margin-right: 1rem;
+}
+
+li:hover {   
+  font-weight: 900;
+}
+a{
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 3px 3px 3px #55db46;
+}
+
+
+

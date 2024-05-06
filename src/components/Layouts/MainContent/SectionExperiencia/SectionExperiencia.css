@@ -1,0 +1,51 @@
+.sectionExperiencia{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sectionExperiencia > .titleExperiencia{
+    display: flex;
+    width: 90%;
+    height: 5rem;
+    align-items: end;
+    border-bottom: solid 10px #00ff0070;
+}
+.titleExperiencia > h1{
+    color: #5a5a5a;
+    height: 2.8rem;
+    font-size: 2rem;
+    width: 90%;
+    text-align: start;
+    border: none;
+}
+
+.titleExperiencia > img{
+    width: 60px;
+    height: 60px;
+    padding-bottom: 5px;
+}
+.sectionExperiencia > p{
+    width: 90%;
+    height: auto;
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.boxExperiencia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+}
+.boxExperiencia > img{
+    width: 200px;
+    height: auto;
+    border-radius: 0px;
+}
+.boxExperiencia > img:nth-child(4){
+    width: 180px;
+    margin-bottom: 32px;
+}
